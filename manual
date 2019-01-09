@@ -1,0 +1,107 @@
+###############Angular JS###############
+ngBindHtml-xss possible use ngSanitize
+$sce.trustAsHtml- XSS
+$sanitize-Strips HTMl tags
+$scope.$eval-no user input 
+ng-click-alert should not be inside view Eg.(<h1 ng-click=î$event.view.alert(1)î>XSS!!</h1>)
+$window.localStorage
+$window.sessionStorage
+ngStorage 
+{{ filter_expression | filter : expression : comparator : anyPropertyKey}}
+
+###############Generic Keywords###############
+print
+println
+Debug
+logger
+log
+getStacktrace
+printStacktrace
+file:/
+C:\
+email
+phone
+SSN
+IMEI
+Request.GetClientCertificate()
+X509Certificate
+access sslFlags="Ssl,SslNegotiateCert
+X509Store
+RequireHttpAttribute(Server Side)
+Encrypt
+Decrypt
+Cipher.instance(
+Pass
+pword
+Pwrd
+password
+passwd
+pwd
+Secret
+Client secret
+Token
+Auth token
+admin
+accountNumber
+username
+creditcard
+primarykey
+cookie
+sessionid
+passpharse
+KeyStore
+Base64
+md5
+DES
+AES
+EBC					
+RSA			//check used without padding
+sha1			//used without salt
+rand
+log
+Hash
+Salt
+
+<form 			//check for HTTP method (By default GET)(Insecure Submission)(Submitting sensitive data)
+
+###############DB Resources###############
+Connection
+resultset
+Statement
+Entity Manager
+rowmapper
+###############File resources###############
+Inputstream
+Outputstream
+File reader
+File writer
+Socket
+Zipfile
+Buffered reader
+Buffered writer
+
+###############Cookies###############
+New Cookie
+Add Cookie
+Set Cookie
+###############XSS###############
+<%=
+Out.print
+Println
+Outputstream.write
+Print
+getParameter
+getString
+Request.get
+###############SQL###############
+Insert
+Update
+Delete
+Select
+Create
+
+
+
+
+
+
